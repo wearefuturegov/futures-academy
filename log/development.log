@@ -5,3 +5,343 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 299ms (Views: 11.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-24 15:41:13 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chrisevans/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chrisevans/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.2ms)
+Completed 200 OK in 579ms (Views: 21.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 15:41:16 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chrisevans/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chrisevans/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 17ms (Views: 9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:07:06 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/chrisevans/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/chrisevans/.rvm/gems/ruby-2.4.1/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (15.6ms)
+Completed 200 OK in 63ms (Views: 36.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:08:24 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 335ms
+
+
+  
+ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1857231449507783665_70234695787360'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:09:37 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 33ms
+
+
+  
+ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1857231449507783665_70234732494240'
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-01-24 16:09:38 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:09:58 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 23ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1857231449507783665_70234701448680'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:10:01 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 22ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1857231449507783665_70234701387920'
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-01-24 16:10:02 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:10:11 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (28.1ms)
+Completed 500 Internal Server Error in 525ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3939570274647441886_70204998834020'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:10:14 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 24ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3939570274647441886_70205001253820'
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-01-24 16:10:14 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:10:28 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 19ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3939570274647441886_70204985895900'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:12:00 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 124ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3939570274647441886_70204985763020'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:41:03 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (30.8ms)
+Completed 500 Internal Server Error in 108ms
+
+
+  
+ActionView::Template::Error (The asset "favicon/favicon.ico" is not present in the asset pipeline.):
+    4:     <title>FuturesAcademy</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= favicon_link_tag 'favicon/favicon.ico' %>
+    8: 
+    9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3939570274647441886_70205001801440'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:52:57 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (33.8ms)
+Completed 500 Internal Server Error in 334ms
+
+
+  
+ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.):
+     5:     %title FuturesAcademy
+     6:     = csrf_meta_tags
+     7: 
+     8:     = favicon_link_tag 'favicon.ico'
+     9: 
+    10:     %link{:href => "/apple-touch-icon.png", :rel => "apple-touch-icon", :sizes => "180x180"}/
+    11:     %link{:href => "/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}/
+  
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3357455223606418560_70204984745320'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:53:09 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 42ms
+
+
+  
+ActionView::Template::Error (The asset "favicon-32x32.ico" is not present in the asset pipeline.):
+     5:     %title FuturesAcademy
+     6:     = csrf_meta_tags
+     7: 
+     8:     = favicon_link_tag 'favicon-32x32.ico'
+     9: 
+    10:     %link{:href => "/apple-touch-icon.png", :rel => "apple-touch-icon", :sizes => "180x180"}/
+    11:     %link{:href => "/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}/
+  
+app/views/layouts/application.html.haml:8:in `_app_views_layouts_application_html_haml___3357455223606418560_70205020329840'
+Started GET "/" for 127.0.0.1 at 2018-01-24 16:53:15 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (1.4ms)
+Completed 200 OK in 512ms (Views: 507.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 17:15:51 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (73.6ms)
+Completed 200 OK in 574ms (Views: 522.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 17:15:55 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 57ms (Views: 53.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-01-24 17:16:28 +0000
+Processing by HomeController#index as HTML
+  Rendering home/index.html.haml within layouts/application
+  Rendered home/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 93ms (Views: 77.0ms)
+
+
