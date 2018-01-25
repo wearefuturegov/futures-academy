@@ -1,0 +1,9 @@
+.restricted_section {
+  margin: 25px auto;
+  @include grid-column(12, $mobile_grid);
+
+  @include desktop {
+    @include grid-column(8);
+    @include grid-push(2);
+  }
+}

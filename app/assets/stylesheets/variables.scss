@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700');
+
+$base-font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+$heading-font-family: $base-font-family;
+
+$black: #142C31;
+$orange: #FF9507;
+$blue: #0696B9;
+$red: #E72D2D;
+
+$primary-color: $orange;
+
+$base-font-color: $black;
+$negative-color: $red;
+$positive-color: $blue;
+
+$base-border-radius: 0;
