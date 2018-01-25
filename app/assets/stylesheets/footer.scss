@@ -1,0 +1,14 @@
+footer {
+  &.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+#footer_pattern {
+  height: 49px;
+  width: calc(100% + 25px);
+  margin-top: 15px;
+  margin-left: -25px;
+  background: image-url('footer_pattern.svg') repeat-x;
+}

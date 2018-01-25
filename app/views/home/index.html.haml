@@ -2,18 +2,45 @@
   #logo.full_width
     =image_tag('fa_logo_large.svg', alt: 'Futures Academy')
 
-  #strapline.restricted_section
+  #strapline.full_width.restricted_section
     %h2 Learn together to lead the public service organisations of tomorrow.  Delivered locally, connected nationally.
 
-  #partners.restricted_section
-    %h2 Delivery partners:
-    %h2 Learning partners:
-    %button Become a partner
+  #partners.full_width
+    .partner_logos
+      .title Delivery partners:
+      =image_tag('catapult.svg', alt: 'Future Cities Catapult')
+      =image_tag('futuregov.svg', alt: 'FutureGov')
+      =image_tag('nesta.svg', alt: 'Nesta')
+      =image_tag('penna.svg', alt: 'Penna')
+      =image_tag('your_logo_here.svg', alt: 'Your Logo Here')
 
+    .partner_logos
+      .title Learning partners:
+      =image_tag('essex.svg', alt: 'Essex City Council')
+      =image_tag('nelincs.svg', alt: 'North East Lincolnshire Council')
+      =image_tag('your_logo_here.svg', alt: 'Your Logo Here')
+
+    %button Become a Partner
+
+.breaker.full_width.center
+  =image_tag('breaker_1.svg', alt: 'Continue')
 
 .container
   .full_width.restricted_section
     %h2 A programme built with you, for you
     %p We understand every place is different. We’re currently co-developing a local learning programme that brings together public sector teams with thought leaders, service design practitioners, organisational specialists, policy and social change experts.
-
     %p We will take a multi-tiered, tailored approach to delivering the skills, support and behaviours that your organisation’s needs. Our project-based learning will be coupled with events, individual coaching, long-format learning modules and cross-sector workshops. Working with you to develop tomorrow’s leaders and today’s front line delivery managers.
+    .center
+      %button Keep me Informed
+
+.breaker.full_width.center
+  =image_tag('breaker_2.svg', alt: 'Continue')
+
+.container
+  .full_width.restricted_section
+    %h2 About Our Partnership
+    %p Futures Academy is a partnership between Future Cities Catapult, FutureGov, Nesta and Penna for public sector organisations. Designed to help public servants create and lead the public service organisations of tomorrow.
+    %p Over the coming months the Futures Academy team will be developing a number of learning partnerships within Councils, across public sector partnerships, among leaders and focused on specific delivery challenges. With a clear focus on practical action and outcomes for citizens and communities, this partnership will bring the latest and emerging thinking to current and future challenges, creating over time solutions and approaches that will be be informed by the global community.
+
+.breaker.full_width.center
+  =image_tag('breaker_3.svg', alt: 'Continue')

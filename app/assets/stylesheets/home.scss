@@ -1,0 +1,29 @@
+.home {
+  button, .button {
+    margin-top: 25px;
+  }
+}
+
+
+.breaker {
+  opacity: 0.6;
+}
+
+.partner_logos {
+  margin-bottom: 25px;
+  .title {
+    margin-bottom: 0;
+  }
+  img {
+    opacity: 0.9;
+    margin: 7px;
+    vertical-align: middle;
+    @include desktop {
+      margin: 10px 25px;
+    }
+  }
+}
+
+#partners {
+  margin-bottom: 25px;
+}
