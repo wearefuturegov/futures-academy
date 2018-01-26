@@ -16,11 +16,6 @@
 
   footer, header {
     background: $black;
-    width: 100%;
-    max-width: none;
-    .full_width {
-      max-width: 1300px;
-    }
   }
   #footer_pattern {
     display: none;
