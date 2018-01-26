@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="135px" viewBox="0 0 148 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pattern_right_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="web5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1292.000000, -1174.000000)" opacity="0.747678895">
+        <g id="pattern_right_2" transform="translate(1447.000000, 1241.500000) scale(-1, 1) translate(-1447.000000, -1241.500000) translate(1291.000000, 1174.000000)">
+            <rect id="Rectangle" fill="#0696B9" x="178" y="30" width="133" height="14" rx="7"></rect>
+            <rect id="Rectangle" fill="#E72D2D" x="154" y="0" width="102.197772" height="13.6245595" rx="6.81227973"></rect>
+            <rect id="Rectangle" fill="#0696B9" x="97" y="121" width="102.197772" height="13.6245595" rx="6.81227973"></rect>
+            <rect id="Rectangle" fill="#FF9507" x="176" y="91" width="14" height="14" rx="7"></rect>
+            <rect id="Rectangle" fill="#FF9507" x="206" y="91" width="85" height="14" rx="7"></rect>
+            <path d="M254.169643,61 C257.941945,61 261,64.1340068 261,68 C261,71.8659932 257.941945,75 254.169643,75 L182.830357,75 C179.058055,75 176,71.8659932 176,68 C176,64.1340068 179.058055,61 182.830357,61 L254.169643,61 Z" id="Rectangle" fill="#182D32"></path>
+        </g>
+    </g>
+</svg>

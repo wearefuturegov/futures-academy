@@ -27,3 +27,52 @@
 #partners {
   margin-bottom: 25px;
 }
+
+.pattern_border {
+  display: none;
+
+  @include desktop {
+    display: block;
+    position: absolute;
+  }
+}
+
+#pattern_left_1 {
+  background: image-url('pattern_left_1.svg') no-repeat;
+  width: 266px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+#pattern_left_2 {
+  background: image-url('pattern_left_2.svg') no-repeat;
+  width: 112px;
+  height: 75px;
+  top: 795px;
+  left: 0;
+}
+
+#pattern_left_3 {
+  background: image-url('pattern_left_3.svg') no-repeat;
+  width: 166px;
+  height: 105px;
+  top: 2044px;
+  left: 0;
+}
+
+#pattern_right_1 {
+  background: image-url('pattern_right_1.svg') no-repeat;
+  width: 149px;
+  height: 105px;
+  top: 510px;
+  right: 0;
+}
+
+#pattern_right_2 {
+  background: image-url('pattern_right_2.svg') no-repeat;
+  width: 148px;
+  height: 135px;
+  top: 1174px;
+  right: 0;
+}
