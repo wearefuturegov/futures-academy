@@ -50,7 +50,21 @@ h3, .h3 {
   color: rgba($black, 0.5);
 }
 
+.black {
+  background-color: $black;
+}
 
+.orange {
+  background-color: $orange;
+}
+
+.blue {
+  background-color: $blue;
+}
+
+.red {
+  background-color: $red;
+}
 
 .restricted_section {
   margin-top: 25px;
