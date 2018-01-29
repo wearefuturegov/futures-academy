@@ -1,0 +1,77 @@
+.container
+  .full_width
+    %h1 Style Guide
+
+  .full_width
+    %h2 Identity
+
+    .large
+      %p The Futures Academy brand aims to express the core values and blah blah blah ....
+
+      %p *information about logotype design here...
+
+      %p Our logotype is as versatile as real type; the logotype can be aligned, like text, to be used across many different scenarios. The logotype is either used all in one line, or split with a break between the two words. It is generally used in our black on white backgrounds, and pure white on coloured backgrounds.
+  .full_width.brand_section
+    =image_tag('style-guide/fa_logos_black.svg')
+
+  .full_width.brand_section.black
+    =image_tag('style-guide/fa_logos_white.svg')
+.container
+  .full_width
+    %h2 Colour
+
+.container
+  .full_width.style_guide_section
+    %h2 Typography
+    .large
+      %p
+        Our typeface is
+        =link_to('Karla', 'https://fonts.google.com/specimen/Karla', target: '_blank')
+        designed by
+        =link_to('Jonny Pinhorn', 'https://github.com/jonpinhorn', target: '_blank') + '.'
+        This grotesque sans serif typeface is uniquely identifiable, while void of distracting features. The typeface is friendly and easy to read and the roundness found in its lettering compliments the Futures Academy logotype.
+
+      %p Our use of typography is to strictly minimise different font styles. The type is set to responsively change depending on screen veiwing size.
+  .style_guide_section
+    .full_width.inner_container.strip_margins
+      .font_description
+        %p.h1 H1 main heading
+      .font_description
+        .no_mobile
+          %p.sub 50 / 84 pt Regular
+        .no_desktop
+          %p.sub 34 / 56 pt Bold
+
+    .full_width.inner_container.strip_margins
+      .font_description
+        %p.h2 H2 sub heading
+      .font_description
+        .no_mobile
+          %p.sub 36 / 60 pt Regular
+        .no_desktop
+          %p.sub 25 / 36 pt Bold
+
+    .full_width.inner_container.strip_margins
+      .font_description
+        %p.h3 H3 smaller sub heading
+      .font_description
+        %p.sub 22 / 36 pt Bold
+
+    .full_width.inner_container.strip_margins
+      .font_description
+        %p.large Large
+      .font_description
+        .no_mobile
+          %p.sub 23 / 37 pt Regular
+        .no_desktop
+          %p.sub 20 / 31 pt Regular
+
+    .full_width.inner_container.strip_margins
+      .font_description
+        %p Body copy
+      .font_description
+        .no_mobile
+          %p.sub 18 / 30 pt Regular
+        .no_desktop
+          %p.sub 16 / 25 pt Regular
+

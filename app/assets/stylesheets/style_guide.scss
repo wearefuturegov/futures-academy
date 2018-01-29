@@ -1,0 +1,38 @@
+.strip_margins {
+  margin-bottom: 15px;
+  @include desktop {
+    margin-bottom: 5px;
+  }
+  h1, h2, h3, p {
+    margin-bottom: 5px;
+  }
+  .font_description {
+    @include desktop {
+      vertical-align: bottom;
+      width: 49%;
+      display: inline-block;
+    }
+  }
+}
+
+.style_guide_section {
+  margin-bottom: 25px;
+  @include desktop {
+    margin-bottom: 40px;
+  }
+}
+
+
+.brand_section {
+  padding: 30px 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  @include desktop {
+    padding: 70px 25px;
+  }
+}
+
+.black {
+  background-color: $black;
+}
